@@ -26,6 +26,7 @@ func main() {
 	router.POST("/permission", routes.AddPermission)
 
 	// please refer to the documentation :
-	// this is the api documentation link for better understanding of the API routes: "https://documenter.getpostman.com/view/25819639/2sAYdcrCTq"
+	// this is the api documentation link for better understanding of the API routes:
+	//  "https://documenter.getpostman.com/view/25819639/2sAYdcrCTq" this contains the description of the endpoints.
 	router.Run(":8080")
 }
